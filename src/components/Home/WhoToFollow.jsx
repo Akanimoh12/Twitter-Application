@@ -11,7 +11,7 @@ export default function WhoToFollow() {
       <div className="p-3 px-5 hover:bg-gray-950 flex">
 
         <div className="w-[14%]">
-          <img src="/mano.jpg" className="rounded-full" />
+          <img src="/mano.jpg" className="rounded-full w-10 h-10" />
         </div>
 
         <div className="w-[85%] flex justify-between pl-2 items-center ">
@@ -40,7 +40,7 @@ export default function WhoToFollow() {
       <div className="p-3 px-5 hover:bg-gray-950 flex">
 
         <div className="w-[14%]">
-          <img src="/akan.jpg" className="rounded-full" />
+          <img src="/akan.jpg" className="rounded-full w-10 h-10" />
         </div>
 
         <div className="w-[85%] flex justify-between pl-2 items-center ">
@@ -70,7 +70,7 @@ export default function WhoToFollow() {
       <div className="p-3 px-5 hover:bg-gray-950 flex">
 
         <div className="w-[14%]">
-          <img src="/jaytee.jpg" className="rounded-full" />
+          <img src="/jaytee.jpg" className="rounded-full w-10 h-10" />
         </div>
 
         <div className="w-[85%] flex justify-between pl-2 items-center ">

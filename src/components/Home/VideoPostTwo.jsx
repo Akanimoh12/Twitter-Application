@@ -62,7 +62,7 @@ const VideoPostTwo = () => {
                         </div>
 
 
-                        <div className=" bg-black w-[88%]">
+                        <div className=" bg-black w-[88%]"> 
 
                             {/* USER DETAILS */}
                             <div className="justify-between items-center flex">

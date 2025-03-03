@@ -96,14 +96,14 @@ export default function Profile() {
 
         <nav className=" h-auto sticky top-0 z-10 bg-black ">
 
-          <div className=" w-full h-auto pt-3 items-center">
+          <div className=" w-full h-auto items-center">
             <Search />
           </div>
 
         </nav>
 
         {/* CONTENT FOR RIGHT SIDE BAR */}
-        <div className=" pt-16 w-fit">
+        <div className=" pt-16 w-full">
 
           <div className="-mt-16">
             <WhoToFollow />

@@ -78,7 +78,7 @@ export default function Explore() {
     <div className=" w-[40%] h-[100vh] md:block hidden sticky top-0 pl-8">
 
       <WhoToFollow/>
-      <div className="-mt-11">
+      <div className="">
       <SubToPremium />
       </div>
       

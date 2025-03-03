@@ -18,18 +18,18 @@ import UserMessageThree from "./components/Messages/UserMessageThree";
 export default function App() {
   return (
     <BrowserRouter >
-      <div className="bg-black h-[100vh]  ">
+      <div className="bg-black h-[100vh]  w-full  ">
 
         
 
         {/* WRAPING CONTAINER THAT HOLDS THE LEFT NAV BAR AND CONTENT DISPLAY */}
-        <div className="bg-black flex md:w-[90%] sm:w-[95%] m-auto  ">
+        <div className="bg-black flex gap-1  sm:w-[90%] lg:max-w-[1300px] m-auto  ">
 
           {/* LEFT NAV BAR */}
           <div className="w-full p-2 sm:w-[10%] md:w-[20%] bg-black text-white h-auto sm:h-[100vh] 
                           fixed bottom-0 sm:static
                           flex sm:flex-col justify-around sm:justify-start 
-                          border-t border-gray-800 sm:border-none sm:gap-1 z-10"
+                          border-r-2 border-gray-800 sm:border-none sm:gap-1 z-10"
           >
 
             {/* X HEADING ICON */}
@@ -66,10 +66,10 @@ export default function App() {
             <Link to="/Grok" className="w-fit block sm:hidden">
               <div className="flex items-center p-2 gap-3 pr-4 text-[20px] hover:bg-gray-950  hover:rounded-full">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" className="w-7 h-7 text-white" aria-hidden="true">
-                  <path d="M2.205 7.423L11.745 21h4.241L6.446 7.423H2.204zm4.237 7.541L2.2 21h4.243l2.12-3.017-2.121-3.02zM16.957 0L9.624 10.435l2.122 3.02L21.2 0h-4.243zm.767 6.456V21H21.2V1.51l-3.476 4.946z"></path>
+                <path d="M2.205 7.423L11.745 21h4.241L6.446 7.423H2.204zm4.237 7.541L2.2 21h4.243l2.12-3.017-2.121-3.02zM16.957 0L9.624 10.435l2.122 3.02L21.2 0h-4.243zm.767 6.456V21H21.2V1.51l-3.476 4.946z"></path>
                 </svg>
                 <span className="md:block hidden" >Grok</span>
-              </div>
+              </div> 
             </Link>
             {/* END FOR GROK ICON ON MOBILE DEVICE */}
 
@@ -195,7 +195,7 @@ export default function App() {
           {/* END FOR LEFT NAV BAR */}
 
           {/* CONTENT DISPLAY */}
-          <div className="w-full md:w-[80%] bg-black h-[100vh] flex-grow text-white border-gray-800 border-l-1">
+          <div className="w-full md:w-[80%] bg-black h-[100vh] flex-grow text-white border-gray-800 border-l-1 ">
             <Routes>
 
               <Route path="/" element={<Home />} />

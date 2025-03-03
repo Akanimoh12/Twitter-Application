@@ -58,14 +58,14 @@ export default function Notifications() {
 
         <nav className=" h-auto sticky top-0 z-10 bg-black ">
 
-          <div className=" w-full h-auto items-center py-3">
+          <div className=" w-full h-auto items-center relative">
             <Search />
           </div>
 
         </nav>
 
         {/* CONTENT FOR RIGHT SIDE BAR */}
-        <div className=" pt-16 w-fit">
+        <div className=" pt-16 w-full">
 
           <div className="-mt-16">
             <WhoToFollow />
